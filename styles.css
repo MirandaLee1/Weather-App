@@ -1,0 +1,105 @@
+
+.weather-app {
+    border-color:  rgba(213, 235, 235, 0.779); ;
+    border-radius: 1%;
+    background-color: rgba(213, 235, 235, 0.442);
+    color: grey
+    text-transform: ;
+    width: 600px;
+    margin: 30px auto;
+    padding: 30px;
+
+}
+header {
+    text-align: center;
+    padding: 5px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 {
+    font-size: 40px;
+}
+
+country {
+    font-size: 30px;
+    
+}
+
+
+h2 {
+    font-size: 15px;
+}
+
+h3, h4 {
+    font-size: 30px;
+}
+
+.cold-main {
+    color: rgb(175, 215, 243);
+    font-size: 40px;
+}
+
+
+.row {
+
+    font-size: 40px;
+    text-align: center;
+}
+
+.card {
+    margin: auto;
+    border: white;
+
+    
+
+}
+.card-title {
+    font-size: 20px;
+}
+
+.card-text {
+    font-size: 12px;
+}
+
+.sunny-time, .thunder-time, .cold-time {
+    font-size: 30px;
+    margin: 10px auto 0;
+}
+
+.sunny-time {
+   
+    color: rgb(234, 234, 77);
+}
+
+.thunder-time {
+
+    color: grey;
+    
+}
+
+.cold-time {
+    color: rgb(175, 215, 243);
+}
+
+form {
+    display: block;
+    padding: 20px;
+}
+
+.searchbutton {
+    display: block;
+    margin: 20px auto;
+    padding: 5px 20px;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    border-radius: 15px;
+    color: black;
+    transition-delay: 25ms;
+    
+}
+
+.searchbutton:hover {
+    color: black;
+    background-color:powderblue;
+}
