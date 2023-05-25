@@ -12,6 +12,9 @@
     <script src="https://kit.fontawesome.com/d5ca97404e.js" crossorigin="anonymous"></script>;
     <link rel="stylesheet" href="styles.css"/>
 
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+
+
 </head>
 <body>
 <div class="container">
@@ -19,7 +22,7 @@
     <div class="weather-app">
     <header>    
     <h1>
-        BERLIN
+        Berlin
       
       </h1>
 
@@ -109,10 +112,10 @@
 </div>
 
 
-<form>
+<form id="cityForm">
  
   <input type="search" class="form-control" id="location" placeholder="Find a city..." autofocus="on">
-  <input type="submit" value="Search" class="searchbutton"/>
+  <input type="submit" value="Search" class="searchbutton" id="submitbutton"/>
 
 </form>
 
