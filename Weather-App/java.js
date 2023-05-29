@@ -37,3 +37,5 @@ function search(event) {
 
 let form = document.querySelector("#cityForm");
 form.addEventListener("submit", search);
+
+
